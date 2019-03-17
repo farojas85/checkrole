@@ -1,5 +1,5 @@
 {
-    "name":"farbesoft/checkrole",
+    "name":"farojas85/checkrole",
     "type":"library",
     "description":"A API Library  fro Laravel",
     "keywords":[
@@ -27,12 +27,13 @@
     },
     "autoload":{
        "psr-4":{
-          "Farbesoft\\checkrole\\":"src"
+          "farojas85\\checkrole\\":"src"
        }
     },
+    "minimum-stability": "dev",
     "autoload-dev": {
         "psr-4": {
-            "farbesoft\\checkrole\\test":"test"
+            "farojas85\\checkrole\\test":"test"
         }
     }
  }
