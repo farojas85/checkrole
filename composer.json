@@ -1,0 +1,38 @@
+{
+    "name":"farbesoft/checkrole",
+    "type":"library",
+    "description":"A API Library  fro Laravel",
+    "keywords":[
+       "Laravel",
+       "Library",
+       "client"
+    ],
+    "license":"MIT",
+    "authors":[
+       {
+          "name":"Fredy Rojas",
+          "email":"farojas851@gmail.com",
+          "role":"Developer"
+       }
+    ],
+    "support":{
+       "source":"https://github.com/farojas85/checkrole",
+       "issues":"https://github.com/farojas85/checkrole/issues"
+    },
+    "require":{
+      "php": ">=5.6.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload":{
+       "psr-4":{
+          "Farbesoft\\checkrole\\":"src"
+       }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "farbesoft\\checkrole\\test":"test"
+        }
+    }
+ }
