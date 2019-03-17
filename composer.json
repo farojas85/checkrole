@@ -30,6 +30,19 @@
           "Farojas85\\checkrole\\":"src"
        }
     },
+    "extra": {
+      "branch-alias": {
+          "dev-master": "4.0-dev"
+      },
+      "laravel": {
+          "providers": [
+              "Farojas85\\chekcrole\\CheckroleServiceProvider"
+          ],
+          "aliases": {
+              "Checkrole": "Farojas85\\checkrole\\Facades\\Checkrole"
+          }
+      }
+  },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload-dev": {
