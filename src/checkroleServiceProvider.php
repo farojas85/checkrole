@@ -8,18 +8,9 @@ use Illuminate\Support\ServiceProvider;
 
 class CheckroleServiceProvider extends ServiceProvider
 {
-    /**
-     * Indicates of loading of the provider is deferred.
-     *
-     * @var bool
-     */
+
     protected $defer = false;
 
-    /**
-     * Boot the service provider.
-     *
-     * @return null
-     */
     public function boot()
     {
         $this->publishes([
@@ -35,15 +26,8 @@ class CheckroleServiceProvider extends ServiceProvider
                 $this->loadMigrationsFrom(__DIR__ . '/../migrations');
             }
         }
-
-        $this->registerBladeDirectives();
     }
 
-    /**
-     * Register the service provider.
-     *
-     * @return void
-     */
     public function register()
     {
         $this->mergeConfigFrom(
@@ -51,12 +35,6 @@ class CheckroleServiceProvider extends ServiceProvider
         );
     }
 
-
-    /**
-     * Get the services provided by the provider.
-     *
-     * @return array
-     */
     public function provides()
     {
         return ['checkrole'];
