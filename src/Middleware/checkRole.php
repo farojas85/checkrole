@@ -1,5 +1,5 @@
 <?
-namespace Farbesoft\checkRole\Middleware;
+namespace Farojas85\checkrole\Middleware;
 
 use App\Model\Role;
 use Closure;

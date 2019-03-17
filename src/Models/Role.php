@@ -1,6 +1,6 @@
 <?php
 
-namespace Caffeinated\Shinobi\Models;
+namespace Farojas85\checkRole\Models;
 
 use Config;
 use Illuminate\Database\Eloquent\Model;

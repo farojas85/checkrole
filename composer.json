@@ -27,14 +27,14 @@
     },
     "autoload":{
        "psr-4":{
-          "farojas85\\checkrole\\":"src"
+          "Farojas85\\checkrole\\":"src"
        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
-            "farojas85\\checkrole\\test":"test"
+            "Farojas85\\checkrole\\test":"test"
         }
     }
  }

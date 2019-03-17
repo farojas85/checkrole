@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Farojas85\checkrole\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
