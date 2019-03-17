@@ -1,11 +1,11 @@
 <?
-namespace Farojas85\checkrole\Middleware;
+namespace Farojas85\Checkrole\Middleware;
 
 use App\Model\Role;
 use Closure;
 use Illuminate\Contracts\Auth\Guard;
 
-class checkRole{
+class CheckRole{
     public function handle($request, Closure $next,$role)
     {
         $timetable = $request->user()->getTimetable();

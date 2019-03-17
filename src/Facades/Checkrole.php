@@ -1,6 +1,6 @@
 <?php
 
-namespace Farojas85\Chekcrole\Facades;
+namespace Farojas85\Checkrole\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

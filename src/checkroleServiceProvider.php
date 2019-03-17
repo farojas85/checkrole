@@ -1,8 +1,7 @@
 <?php
 
-namespace Farojas85\checkrole;
+namespace Farojas85\Checkrole;
 
-use Blade;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 

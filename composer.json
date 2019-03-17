@@ -27,7 +27,7 @@
     },
     "autoload":{
        "psr-4":{
-          "Farojas85\\checkrole\\":"src"
+          "Farojas85\\Checkrole\\":"src/"
        }
     },
     "extra": {
@@ -36,10 +36,10 @@
       },
       "laravel": {
           "providers": [
-              "Farojas85\\checkrole\\CheckroleServiceProvider"
+              "Farojas85\\Checkrole\\CheckroleServiceProvider"
           ],
           "aliases": {
-              "Checkrole": "Farojas85\\checkrole\\Facades\\Checkrole"
+              "Checkrole": "Farojas85\\Checkrole\\Facades\\Checkrole"
           }
       }
   },
@@ -47,7 +47,7 @@
     "prefer-stable": true,
     "autoload-dev": {
         "psr-4": {
-            "Farojas85\\checkrole\\test":"test"
+            "Farojas85\\Checkrole\\test":"test"
         }
     }
  }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Farojas85\checkRole\Models;
+namespace Farojas85\Checkrole\Models;
 
 use Config;
 use Illuminate\Database\Eloquent\Model;

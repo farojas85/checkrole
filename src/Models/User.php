@@ -1,11 +1,11 @@
 <?php
 
-namespace Farojas85\checkrole\Models;
+namespace Farojas85\Checkrole\Models;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Farbesoft\checkrole\Models\Role;
+use Farojas85\Checkrole\Models\Role;
 use Illuminate\Support\Facades\DB;
 use Auth;
 

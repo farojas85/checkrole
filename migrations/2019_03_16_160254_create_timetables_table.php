@@ -9,11 +9,11 @@ class CreateTimetablesTable extends Migration
     public function up()
     {
         Schema::create('timetables', function (Blueprint $table) {
-            $table->increments('id');
-            $table->unsignedInteger('user_id')->unique();
+            $table->bigIncrements('id');
+            $table->unsignedBigInteger('user_id')->unique();
             $table->time('time_initiate');
             $table->time('time_end');
-            $table->string('description',190);
+            $table->string('description',190)->nullable();
             $table->timestamps();
             $table->foreign('user_id')->references('id')->on('users');
         });
