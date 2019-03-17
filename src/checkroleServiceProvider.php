@@ -49,12 +49,6 @@ class CheckroleServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(
             __DIR__.'/../config/checkrole.php', 'checkrole'
         );
-
-        $this->app->singleton('checkrole', function ($app) {
-            $auth = $app->make('Illuminate\Contracts\Auth\Guard');
-
-            return new \Caffeinated\Shinobi\Shinobi($auth);
-        });
     }
 
 

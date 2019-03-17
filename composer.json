@@ -36,7 +36,7 @@
       },
       "laravel": {
           "providers": [
-              "Farojas85\\chekcrole\\CheckroleServiceProvider"
+              "Farojas85\\checkrole\\CheckroleServiceProvider"
           ],
           "aliases": {
               "Checkrole": "Farojas85\\checkrole\\Facades\\Checkrole"
